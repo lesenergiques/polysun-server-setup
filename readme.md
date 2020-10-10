@@ -9,7 +9,7 @@
 * Inside that zip file there is a folder called `Linux`.
   This is `Polysun Network License Manager` that we will have to upload to the server.
 
-## Initial server setup
+## Define initial server setup
 
 * Procure a server, for instance a CX11 virtual machine at [Hetzner](https://www.hetzner.com/cloud).
   I recommend using the latest Ubuntu Server LTS (64bits).
@@ -33,7 +33,7 @@ total 22064
 -rwxr-xr-x 1 root root 6051509 Oct 10 06:19 lserv64
 ```
 
-## License File
+## Add license File
 
 * Run the command `echoid64` to obtain the locking code that will allow us to generate a license file.
   Warning: the output depends on where you run the command from!
@@ -71,3 +71,32 @@ total 22064
 ```
 
 * Start the license server.
+
+## Check server log
+
+* Connect to the server as external user with relevant login/password.
+  Warning: only root can access log files since the Polysun licence server manager is running in root mode!
+
+* Change to root user:
+```
+sudo su -
+```
+
+* Go to Sentinel directory:
+```
+cd /home/sentinel 
+```
+
+* List files:
+```
+ls 
+```
+
+* Find the file ending with "sta", for example lservsta and display it with you favorite command:
+```
+tail lservsta
+```
+or
+```
+vi lservsta
+```
