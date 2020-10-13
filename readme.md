@@ -33,7 +33,7 @@ total 22064
 -rwxr-xr-x 1 root root 6051509 Oct 10 06:19 lserv64
 ```
 
-## Add license File
+## Add license file
 
 * Run the command `echoid64` to obtain the locking code that will allow us to generate a license file.
   Warning: the output depends on where you run the command from!
@@ -71,6 +71,9 @@ total 22064
 ```
 
 * Start the license server.
+
+## Manage firewall permissions
+In case there are firewalls blocking connections, the Polysun License Server communicates using UDP on port 5093.
 
 ## Check server log
 
