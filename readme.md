@@ -1,5 +1,11 @@
 # Setup of Polysun Network License Manager
 
+## Rent or setup your ownn virtual private server (VPS)
+
+* Procure a server, for instance a entry-price VPS at [OVH](https://www.ovh.com/) since this European offering is available worlwide in many languages and in various flavours ([basic](https://us.ovhcloud.com/vps/) and [low-cost](https://www.kimsufi.com/us/en/vps-ssd.xml)). We recommend using the latest Ubuntu Server LTS (64-bit).
+
+* Login using a standard Mac/Linux terminal or a substitute, eg. under < MS Windows 10 you can use [PuTTY](https://www.putty.org/) (basic) or [MobaXterm](https://mobaxterm.mobatek.net/) (complete), or even setup a virtual machine.
+
 ## Obtain Polysun Network License Manager
 
 * Download Polysun from [Vela Solaris](https://www.velasolaris.com/downloads/?lang=en).
@@ -10,9 +16,6 @@
   This is `Polysun Network License Manager` that we will have to upload to the server.
 
 ## Define initial server setup
-
-* Procure a server, for instance a CX11 virtual machine at [Hetzner](https://www.hetzner.com/cloud).
-  I recommend using the latest Ubuntu Server LTS (64bits).
 
 * The Polysun Network License Manager needs to run as `root`, so no need to create a dedicated user.
 
