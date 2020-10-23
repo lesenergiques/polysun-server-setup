@@ -1,6 +1,6 @@
 # Setup of Polysun Network License Manager
 
-## Rent or setup your ownn virtual private server (VPS)
+## Rent or setup your own virtual private server (VPS)
 
 * Procure a server, for instance a entry-price VPS at [OVH](https://www.ovh.com/) since this European offering is available worlwide in many languages and in various flavours ([basic](https://us.ovhcloud.com/vps/) and [low-cost](https://www.kimsufi.com/us/en/vps-ssd.xml)). We recommend using the latest Ubuntu Server LTS (64-bit).
 
@@ -10,7 +10,7 @@
 
 * Download Polysun from [Vela Solaris](https://www.velasolaris.com/downloads/?lang=en).
 
-* Polysun should come with a zip file called `PolysunNetworkLicenseManager.zip`.
+* Polysun should come with a zip file called `PolysunNetworkLicenseManager.zip` (located in the `C:\Program Files\Polysun` installation directory under Microsoft Windows)
 
 * Inside that zip file there is a folder called `Linux`.
   This is `Polysun Network License Manager` that we will have to upload to the server.
