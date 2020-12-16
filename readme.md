@@ -88,9 +88,9 @@ In case there are firewalls blocking connections, the Polysun License Server com
 sudo su -
 ```
 
-* Go to Sentinel directory:
+* Go to Polysun directory:
 ```
-cd /home/sentinel 
+cd /home/polysun 
 ```
 
 * List files:
